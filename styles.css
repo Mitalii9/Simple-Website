@@ -1,0 +1,370 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+}
+hr{
+    color:  grey;
+     width: 50%; 
+}
+/* Home */
+#Home{
+    background-image: url(Home-bg2.png);
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7% 20%;
+    padding-top: 0%;
+    
+}
+.Title{
+    font-family: 'Rubik', sans-serif;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0 50px 0 0;
+}  
+td{
+   padding: 10px 0;
+}
+.ul{
+   margin-left: 10rem;
+}
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}  
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}  
+li a:hover {
+    color: white;
+}
+.home-div{
+    margin-top: 10%;
+    width: 60%;
+}
+.btn1{
+    background-color: #ff9500;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+button:hover{
+  border: 2px solid black;
+}
+
+/* Welcome */
+#Welcome{
+    padding: 7% 20% 1% 20%;
+}
+.container1{
+    font-family: 'Roboto', sans-serif;
+    width:80%;
+    margin:50px auto 50px auto;
+    text-align: left;
+}
+.umbrella{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+.flex-container1{
+    display: flex;
+    padding: 1% 20% 7% 20%;   
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.f{
+    width: 13rem;
+    padding: 3%;
+}
+.Service h2{
+    text-align: center;
+    color: purple;
+}
+.f p{
+    text-align: center;
+}
+.icons{
+    color: white;
+    background-color: purple;
+    margin-left: 5rem;
+    border-radius: 300%;
+    padding: 5%;
+}
+.btn2{
+    background-color: #ECB365;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5%;
+    margin-left: 40px;
+}
+
+/* Projects */
+#Projects{
+    padding-top: 7%;
+}
+.flex-container2{
+    display: flex;
+    padding: 1% 0 7% 0;   
+    justify-content: space-evenly;
+}
+.flex-container2 img{
+    height: 50%;
+    width: 100%;
+}
+.project1{
+    background-color: lightgrey;
+    padding-bottom:3%;
+}
+.project1:hover{
+    background-color: #FBF46D;
+}
+.Project-text{
+    padding:5%;
+}
+
+/* Pricing */
+#Pricing{
+    padding: 1% 20% 1% 20%;
+}
+.flex-container3{
+    display: flex;
+    padding: 1% 10% 1% 10%;   
+    justify-content: space-evenly;
+}
+.pricing1{
+    padding: 3% 5%;
+    text-align: center;
+}
+.pricing2{
+    padding: 3% 5%;
+    text-align: center;
+    border-left: thin solid lightgrey;
+    height: 100%;
+}
+.pricing3{
+    padding: 3% 5%;
+    text-align: center;
+    border-left: thin solid lightgrey;
+    height: 100%;
+}
+.btn3{
+    background-color:rgb(202, 79, 202);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5%;
+}
+
+/* Video-projects */
+#Video-projects{
+    background-color: lightgray;
+    padding: 7% 20%;
+    text-align: center;
+}
+
+/* Team */
+#Team{
+    height: 105%;
+    padding: 7% 0%;
+}
+.profiles{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-left: 250px;
+}
+.profile{
+      flex-basis: 260px;
+      margin-top: 30px;
+}
+.profile .profile-img{
+      height: 160px;
+      width: 160px;
+      border-radius: 50%;
+      filter:grayscale(0);
+      cursor: pointer;
+      transition: 400ms;
+}   
+.profile:hover .profile-img{
+      filter: grayscale(100%);
+}
+.user-name{
+      margin-top: 30px;
+      margin-left: 15px;
+      font-size: 15px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: black;
+}
+.profile h5{
+      font-size: 15px;
+      margin-left: 15px;
+      color:black;
+      font-weight: 100;
+      letter-spacing: 3px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (max-width: 1150px){
+  .profiles{
+       flex-direction: column;
+    }
+    .profile{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+}
+@media only screen and (max-width: 900px){
+    .heading{
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+    }
+    .heading span{
+        font-size: 15px;
+    }
+    .profiles{
+        margin: 20px 0;
+    }
+}
+
+/* Blog */
+#Blog{
+    background-color: lightgray;
+    padding: 1% 20% 1% 20%;
+}
+.flex-container5{
+    display: flex;
+    padding: 1% 10% 1% 10%;   
+    justify-content: space-evenly;
+}
+.blog1{
+    padding: 3% 5%;
+    text-align: center;
+}
+.blog2{
+    padding: 3% 5%;
+    text-align: center;
+    border-left: thin solid lightgrey;
+    height: 100%;
+}
+.blog3{
+    padding: 3% 5%;
+    text-align: center;
+    border-left: thin solid lightgrey;
+    height: 100%;
+}
+.blog-img{
+    height: 160px;
+    width: 160px;
+}
+.btn3{
+    background-color:rgb(202, 79, 202);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5%;
+}
+
+/* Contact */
+#Contact{
+    background-color: rgba(3, 18, 58, 0.842);
+}
+.contact-box{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    border-bottom: 0%;
+    background-color: rgba(3, 18, 58, 0.842); 
+    font-size: xx-large;
+    
+}
+.contact{
+    padding: 0.8% 0% 0.8% 0%;
+    text-align: center; 
+    color: white; 
+    margin-bottom: 0%
+} 
+.map{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+   
+}
+.map1{
+    border-radius: 8px;
+    width: 46rem;
+    margin: 0%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 0.5px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    resize: vertical ;
+}
+input[type=submit] {
+    background-color: #ff9500;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+input[type=submit]:hover {
+    border: 2px solid black;
+} 
+.contact-form{
+    border-radius:0px;
+    background-color: rgba(3, 18, 58, 0.842) ;
+    padding: 20px;
+    width: 46rem;
+    margin: 0%;
+}
+.flex-container4 { 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%; 
+    padding: 0%
+}
+.flex{
+ margin: 0% 20% 4% 20%;
+ } 
+.flex-container4 > div {
+    margin: 10px;
+    padding: 10px;    
+}
+.bottom-container{
+    display: block;
+    background-color: #ff9500;
+    margin: 0%;
+    text-align: center;
+}
+.ending{
+    color: black ;
+    margin: 40px auto 0px;
+    line-height: 1;
+}
+.bottom-container a{
+    margin: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+.bottom-container a:hover{
+    font-weight: bold;
+}
+
+
+
